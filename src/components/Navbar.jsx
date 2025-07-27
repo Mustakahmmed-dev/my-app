@@ -14,8 +14,8 @@ const Navbar = () => {
                 <li><Link href="/contact">Contact</Link></li>
             </ul>
             <div>
-                <button type="button" className="px-4 py-3 text-white mr-4 bg-blue-600 rounded-lg ">Register</button>
-                <button type="button" className="px-4 py-3 text-white bg-blue-600 rounded-lg ">SignIn</button>
+                <Link href="/register" className="px-4 py-3 text-white mr-4 bg-blue-600 rounded-lg ">Register</Link>
+                <Link href="/login" className="px-4 py-3 text-white bg-blue-600 rounded-lg ">SignIn</Link>
             </div>
         </div>
     )
